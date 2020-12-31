@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xx"
+  ],
+  "key": {
+    "x":{
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result": {
+    "item": "gardenbuilder:oak_mulch",
+    "count": 16
+  }
+}
