@@ -1,0 +1,9 @@
+{
+  "parent": "block/orientable",
+  "textures": {
+    "top": "gardenbuilder:blocks/flagstone_paver",
+    "front": "gardenbuilder:blocks/flagstone_paver_side",
+    "side": "gardenbuilder:blocks/flagstone_paver_side",
+    "bottom": "gardenbuilder:blocks/flagstone_paver_bottom"
+  }
+}

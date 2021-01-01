@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "gardenbuilder:block/flagstone_paver"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xy"
+  ],
+  "key": {
+    "x":{
+      "item": "minecraft:dirt"
+    },
+    "y":{
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "gardenbuilder:flagstone_paver",
+    "count": 2
+  }
+}

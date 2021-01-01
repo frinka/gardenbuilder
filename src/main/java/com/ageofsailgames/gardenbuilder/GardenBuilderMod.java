@@ -7,6 +7,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.common.ToolType;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -27,6 +28,9 @@ public class GardenBuilderMod
 
     public static final RegistryObject<Block> OAK_MULCH = BLOCKS.register("oak_mulch", () -> new Block(Block.Properties.create(Material.WOOD).sound(SoundType.GROUND).hardnessAndResistance(0.4F)));
     public static final RegistryObject  OAK_MULCH_ITEM = ITEMS.register("oak_mulch", () -> new BlockItem(OAK_MULCH.get(), new Item.Properties().group(ItemGroup.DECORATIONS)));
+
+    public static final RegistryObject<Block> FLAGSTONE_PAVER = BLOCKS.register("flagstone_paver", () -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(0.8F).harvestTool(ToolType.PICKAXE)));
+    public static final RegistryObject  FLAGSTONE_PAVER_ITEM = ITEMS.register("flagstone_paver", () -> new BlockItem(FLAGSTONE_PAVER.get(), new Item.Properties().group(ItemGroup.DECORATIONS)));
 
     public GardenBuilderMod() {
         MinecraftForge.EVENT_BUS.register(this);
